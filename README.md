@@ -8,14 +8,14 @@ Designed for QA Engineers and developers who need a quick, intelligent assessmen
 
 ```text
 wcag-auditor/
-├── images/             # Assets and branding
-│   ├── favicon.png     # Browser tab icon
-│   └── social-share.png # Open Graph social media image
-├── index.html          # Main application entry point
-├── LICENSE             # Project license information
-├── README.md           # Project documentation
-├── script.js           # Core auditing logic and AI integration
-└── style.css           # Styling and responsive layout
+├── images/                # Assets and branding
+│   ├── favicon.png        # Browser tab icon
+│   └── social-share.png   # Open Graph social media image
+├── index.html             # Main application entry point
+├── LICENSE                # Project license information
+├── README.md              # Project documentation
+├── script.js              # Core auditing logic and AI integration
+└── style.css              # Styling and responsive layout
 ```
 
 ## Features
