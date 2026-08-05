@@ -1,6 +1,6 @@
 # AI WCAG Accessibility Auditor
 
-A lightweight, browser-based auditing tool that leverages the power of Google Gemini AI to evaluate web accessibility compliance against WCAG 2.2 standards (Levels A and AA).
+A lightweight, browser-based auditing tool that leverages the power of Google Gemini AI to evaluate web accessibility compliance against WCAG (Web Content Accessibility Guidelines) 2.2 standards (Levels A and AA).
 
 Designed for QA Engineers and developers who need a quick, intelligent assessment of web components, this tool allows for the analysis of raw HTML source code and visual screenshots to detect accessibility barriers.
 
