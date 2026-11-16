@@ -144,7 +144,7 @@ async function runAuditWorkflow() {
     clearPreviousReport();
 
     try {
-        const ai = new GoogleGenAI({ apiKey: apiKey });
+        const ai = new GoogleGenAI({ apiKey: apiKey, apiVersion: 'v1beta' });
         const contents = [];
 
         const prompt = `
@@ -284,12 +284,12 @@ function renderReport(data) {
             <strong>Summary:</strong> ${escapeHtml(data.summary)}
         </p>
         
-        <h3>❌ Failures (${data.failed.length})</h3>
+        <h3>Failures (${data.failed.length})</h3>
         <ul class="audit-list">
             ${failuresHTML}
         </ul>
 
-        <h3 style="margin-top: 2rem;">✅ Passed Checks (${data.passed.length})</h3>
+        <h3 style="margin-top: 2rem;">Passed Checks (${data.passed.length})</h3>
         <ul class="audit-list">
             ${passesHTML}
         </ul>
